@@ -1,0 +1,4 @@
+- insert:
+    - id: acp-bridge
+      name: '@local/dsh-acp-bridge'
+      config: {}

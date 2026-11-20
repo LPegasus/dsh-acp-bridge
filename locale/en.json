@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "ACP bridge",
+    "description": "Use ACP-compatible agents as DSH model providers and manage provider enablement and CLI updates from the ACP sidebar page. Only enabled providers appear in the chat model selector. Codex and Cursor Agent are built in. Codex works through the bundled official codex-acp adapter and your existing sign-in; CLI updates are checked on the first DSH start of each day and take effect after restarting DSH. Cursor Agent is disabled by default and uses the official agent acp command after you install and sign in to Cursor CLI; its versions are managed by Cursor CLI auto-update or agent update. Requests go through a local ACP process to the external provider. Text and reasoning stream back. DSH tool schemas are not callable there; historical tool calls/results become text context. Images, external tool activity, and token usage are not bridged. The bundled Codex defaults to read-only mode, and permission requests are rejected unless automatic approval is explicitly enabled. Configure other external agents or static models in your Cordis override."
+  }
+}

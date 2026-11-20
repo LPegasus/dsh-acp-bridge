@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "ACP 模型桥接",
+    "description": "把支持 ACP 的 Agent 接入为 DSH 模型 Provider，并在左侧 ACP 管理页统一控制启用状态和 CLI 更新。只有启用的 Provider 才会出现在聊天模型选择器中。内置 Codex 和 Cursor Agent：Codex 通过官方 codex-acp 适配器复用本机登录状态，每天首次启动检查 CLI 新版本，升级后重启 DSH 生效；Cursor Agent 默认关闭，安装并登录 Cursor CLI 后可通过官方 agent acp 命令启用，版本由 Cursor CLI 自动更新或 agent update 管理。请求经本机 ACP 进程发往对应服务商；返回文本与思考流。DSH 工具定义不会成为外部可调用工具，历史工具调用/结果仅以文本作为上下文；不桥接图片、外部工具过程及 token 用量。内置 Codex 默认只读，权限请求默认拒绝，只有显式开启才会自动批准。可配置其他外部 Agent 或静态模型。"
+  }
+}

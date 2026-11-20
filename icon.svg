@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+  <rect x="5" y="9" width="10" height="18" rx="3" fill="url(#acp-source)"/>
+  <rect x="21" y="9" width="10" height="18" rx="3" fill="url(#acp-target)"/>
+  <path d="M12 14.5h12m-3-3 3 3-3 3M24 21.5H12m3-3-3 3 3 3" stroke="#F4F7FB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <defs>
+    <linearGradient id="acp-source" x1="10" y1="9" x2="10" y2="27" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72A7F8"/>
+      <stop offset="1" stop-color="#4267B2"/>
+    </linearGradient>
+    <linearGradient id="acp-target" x1="26" y1="9" x2="26" y2="27" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72C7AC"/>
+      <stop offset="1" stop-color="#388477"/>
+    </linearGradient>
+  </defs>
+</svg>
